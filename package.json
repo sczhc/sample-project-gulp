@@ -1,0 +1,10 @@
+{
+  "name": "sample-project-gulp",
+  "version": "1.0.0",
+  "description": "The sample project we will use throughout the Gulp chapters",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2"
+  }
+}

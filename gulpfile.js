@@ -8,7 +8,8 @@ var gulp = require('gulp'),
     prefix = require('gulp-autoprefixer'),
     bSync = require('browser-sync'),
     clean = require('gulp-clean'),
-    mainBowerFiles = require('gulp-main-bower-files');
+    mainBowerFiles = require('gulp-main-bower-files'),
+   	wiredep = require('wiredep').stream;
 
 
 gulp.task('test', function() {
@@ -98,4 +99,11 @@ gulp.task('bower',
         gulp.parallel('bower-files')
     )
 );
+
+gulp.task('deps',function() {
+	return gulp.src('app/**/*.html')
+	.pipe(wiredep())
+	.pipe(gulp.dest('dist'));
+})
+
 

@@ -11,7 +11,8 @@
     "gulp-main-bower-files": "^1.7.0",
     "gulp-uglify": "^3.0.2",
     "jshint": "^2.10.2",
-    "main-bower-files": "^2.13.1"
+    "main-bower-files": "^2.13.1",
+    "wiredep": "^4.0.0"
   },
   "dependencies": {
     "gulp-autoprefixer": "^7.0.0",

@@ -1,0 +1,10 @@
+{
+  "name": "sample-project-gulp",
+  "description": "The sample project we will use throughout the Gulp chapters",
+  "license": "MIT",
+  "homepage": "https://github.com/sczhc/sample-project-gulp",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}

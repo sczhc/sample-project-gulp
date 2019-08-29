@@ -1,3 +1,3 @@
 window.onload = function() {
-	console.log('first');
+	document.querySelector('.first').style.color = 'red';
 }
